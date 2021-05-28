@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+/* From here Footer  */
+/* Blue color - #2a93c9; */
+
+
+
+footer {
+	background-color: #2d3742;
+	width: auto;
+	display: grid;
+	grid-template-columns: 40% 40%;
+	padding: 3%;
+    padding-left: 10%;
+		color:white;
+
+}
+.headings {
+    font-family: 'Poppins', sans-serif;
+	margin-bottom: 5%;
+	letter-spacing: 3px;
+	font-weight: 200%;
+	font-size: 170%;
+}
+
+.foot {
+
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+footer .links a{
+	opacity: .8;
+	transition: 1s;
+}
+
+
+footer .links a:hover {
+	text-decoration: underline;
+	opacity: 1;
+}
+
+footer .services a{
+	opacity: .8;
+	transition: 1s;
+}
+
+
+footer .services a:hover {
+	text-decoration: underline;
+	opacity: 1;
+}
+
+
+footer .services{
+    color: white;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+footer .services p{
+    line-height: 30px;
+}
+
+
+footer .logodiv{
+	margin-top: 80px;
+}
+
+.copy{
+	background-color: #02040f;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding-left:30%;
+	padding-bottom: 5%;
+}
+
+
+footer .rights a,footer .rights{
+    margin-top: 100px;
+    text-decoration:none;
+    color: white;
+	font-family: 'Montserrat', sans-serif;
+}
